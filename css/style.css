@@ -1,6 +1,10 @@
 nav {
-    height: 100px;
+    /* height: 100px; */
     background-color: #2c3e50;
+}
+
+.container {
+    height: 100%;
 }
 
 nav .row {
@@ -10,4 +14,30 @@ nav .row {
 div {
     min-height: 50px;
     min-width: 50px;
+}
+
+header {
+    /* height: 500px; */
+    background-color: #1abc9c;
+}
+
+.img {
+    width: 200px;
+    height: 200px;
+}
+
+.title {
+    width: 300px;
+}
+
+.svg-line {
+    width: 75px;
+}
+
+.svg-star {
+    width: 50px;
+}
+
+.professions {
+    width: 125px;
 }
