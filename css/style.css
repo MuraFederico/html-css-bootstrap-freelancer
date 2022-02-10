@@ -41,3 +41,47 @@ header {
 .professions {
     width: 125px;
 }
+
+.title2 {
+    width: 170px;
+}
+
+.hut,
+.cake,
+.tent,
+.pad,
+.safe,
+.submarine {
+    height: 300px;
+}
+
+.hut {
+    background-color: #ba4b63;
+}
+
+.cake {
+    background-color: #1ea4b6;
+}
+
+.tent {
+    background-color: #140f0f;
+}
+
+.pad {
+    background-color: #1c83c1;
+}
+
+.safe {
+    background-color: #0e38b5;
+}
+
+.submarine {
+    background-color: #ccb2a3;
+}
+
+main .img {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
