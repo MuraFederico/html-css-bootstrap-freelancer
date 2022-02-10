@@ -90,3 +90,8 @@ main .img {
 .btn {
     width: 100px;
 }
+
+.form {
+    width: 340px;
+    height: 500px;
+}
