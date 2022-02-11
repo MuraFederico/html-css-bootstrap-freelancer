@@ -1,23 +1,14 @@
+:root {
+    --nav-height: 100px;
+}
+
 nav {
-    /* height: 100px; */
+    height: var(--nav-height);
     background-color: #2c3e50;
 }
 
-.container {
-    height: 100%;
-}
-
-nav .row {
-    height: 100%;
-}
-
-div {
-    min-height: 50px;
-    min-width: 50px;
-}
-
-section {
-    margin: 0;
+header{
+    margin-top: var(--nav-height);
 }
 
 header,
