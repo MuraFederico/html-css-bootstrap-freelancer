@@ -17,42 +17,42 @@ header,
     background-color: #1abc9c;
 }
 
-.img {
+header img {
     width: 200px;
     height: 200px;
 }
 
-.title {
-    width: 300px;
+.line{
+    height: 5px;
+    border-radius: 10px;
 }
 
-.svg-line {
-    width: 75px;
+header .line {
+    width: 15%;
+    background-color: white;
 }
 
-.svg-star {
-    width: 50px;
+#portfolio .line {
+    width: 15%;
+    background-color: #2c3e50;
 }
 
-.professions {
-    width: 125px;
+#portfolio .star {
+    color: #2c3e50;
 }
 
-.title2 {
-    width: 170px;
-}
-
-.hut,
+.cabin,
 .cake,
-.tent,
-.pad,
+.circus,
+.game,
 .safe,
 .submarine {
-    height: 300px;
+    /* border-radius: 24px; */
 }
 
-.hut {
+.cabin {
     background-color: #ba4b63;
+    border-radius: 24px;
 }
 
 .cake {
@@ -75,11 +75,8 @@ header,
     background-color: #ccb2a3;
 }
 
-main .img {
-    position: relative;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+main img {
+    width: 100%;
 }
 
 .btn {
