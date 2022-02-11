@@ -122,9 +122,19 @@ main img {
     background-color: #3a546d;
 }
 
-.title3 {
-    width: 100px;
+.btn-white {
+    --btn-dimension: 40px;
+    width: var(--btn-dimension);
+    height: var(--btn-dimension);
+    color: white;
+    border: 1px solid white;
 }
+
+.btn-white:hover {
+    color: #1abc9c;
+    border: 1px solid #1abc9c;
+}
+
 
 .copyright {
     background-color: #2c3e50;
